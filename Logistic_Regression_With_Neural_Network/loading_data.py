@@ -41,8 +41,4 @@ def load_dataset(data_directory, image_size=(64, 64), test_size=0.2, random_seed
 
     return X_train, y_train, X_test, y_test, class_names
 
-# # Specify the path to your dataset directory
-# data_directory = "log_dataset"
 
-# # Load the dataset
-# X_train, y_train, X_test, y_test, class_names = load_dataset(data_directory)

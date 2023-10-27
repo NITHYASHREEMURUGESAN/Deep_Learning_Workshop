@@ -21,7 +21,6 @@ plt.imshow(train_set_x_orig[index])
 m_train = train_set_y.shape[0]
 m_test = test_set_y.shape[0]
 num_px = train_set_x_orig.shape[1]
-### END CODE HERE ###
 
 print ("Number of training examples: m_train = " + str(m_train))
 print ("Number of testing examples: m_test = " + str(m_test))
